@@ -1,0 +1,106 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    height: 75px;
+    width: 70%;
+    font-size: 200%;
+}
+
+button {
+    cursor: pointer;
+    padding: 7.5px 15px;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    /*background: #1abc9c;*/
+    background-image: linear-gradient(to right,#1abc9c, #3DFFD8);
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.correct {
+    color: #1abc9c;
+}
+
+.solidButton {
+    background: #fc703d;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 110%;
+    box-shadow: 0.5px 1px 2px 1px #bababa;
+}
+
+.emptyButton {
+    background: white;
+    color: #fc703d;
+    border: solid;
+    border-color: #FC5D23;
+    border-width: 1px;
+    border-radius: 16px;
+    font-size: 110%;
+    box-shadow: inset 0.5px 1px 2px 1px #bababa;
+}
+
+.pressed {
+    box-shadow: inset 0.5px 1px 2px 1px #bababa;
+}
+
+.newWordBtn {
+    font-weight: bold;
+    background: white;
+    color: #1abc9c;
+    border: solid;
+    border-color: #fc703d;
+    border-width: 1px;
+    font-size: 110%;
+    border-radius: 16px;
+    height: 75px;
+    width: 300px;
+    font-size: 200%;
+    box-shadow: 0.5px 1px 2px 1px #bababa;
+}
+
+.newWordBtn:active {
+    font-weight: bold;
+    background: white;
+    color: #1abc9c;
+    border: solid;
+    border-color: #fc703d;
+    border-width: 1px;
+    font-size: 110%;
+    border-radius: 16px;
+    height: 75px;
+    width: 300px;
+    font-size: 200%;
+    box-shadow: inset 0.5px 1px 2px 1px #bababa;
+}
+
+.result {
+    font-style: italic;
+}
+
+.hidden {
+    opacity: 0%
+}
+
+h1 {
+    text-align: center;
+}
+
+
