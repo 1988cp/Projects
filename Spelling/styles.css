@@ -11,7 +11,8 @@ body {
 
 input {
     height: 75px;
-    width: 70%;
+    width: 40%;
+    min-width: 250px;
     font-size: 200%;
 }
 
